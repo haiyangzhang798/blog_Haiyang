@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haiyang Zhang on Haiyang Zhang</title>
+    <link>/</link>
+    <description>Recent content in Haiyang Zhang on Haiyang Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +1100</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>extract soil nutrients from isric dataset</title>
+      <link>/post/extract-soil-nutrients-from-isric-dataset/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/extract-soil-nutrients-from-isric-dataset/</guid>
+      <description>&lt;div id=&#34;this-is-only-a-test-and-i-will-come-back-later.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;This is only a test and I will come back later.&lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Arbuscular mycorrhizal fungi-mediated nitrogen transfer</title>
+      <link>/project/plant_amf/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/plant_amf/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;
+The goal of this project is to investigate how plant carbohydrates control arbuscular mycorrhizal fungi-mediated nitrogen transfer. Using isotopic labeling (13C and 15N) technology, we have shown that plant C limitation does not reduce N transfer from arbuscular mycorrhizal fungi (AMF) to Plantago lanceolata. Instead, we have revealed greater N-for-C exchange efficiency between plant and AMF under plant C limitation (low CO2 concentration). C-limited host plants with AMF optimized the use of resources by increasing both C and N allocation to shoots to alleviate C limitation. This project was funded by Max Planck Institute and DAAD.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leguminous shrub encroachment and N transfer</title>
+      <link>/project/shrub/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shrub/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Local study&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We measured N concentrations and natural abundance 15N of shoot tissues from three dominant grasses from different plant functional groups across seven distances along a local transect (up to 500 cm) to the leguminous shrub, Caragana microphylla. Our results indicated the rhizomatous grass transferred fixed N over long distances while bunchgrasses did not. The presence of C. microphylla increased the shoot biomass of L. chinensis but decreased that of S. grandis and A. sibiricum. These findings highlight the potential role of nutrient-acquisition strategies of neighboring grasses in moderating the interspecific variation of fixed N transfer from the leguminous shrub.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./Users/zhanghaiyang/blog_haiyang/static/img/shrub_encroch_results.png&#34; /&gt;
+&lt;strong&gt;Regional study&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We further investigated how shrubs mediated N dynamics and how shrub–grass interactions varied along a precipitation gradient (147–342 mm) in a temperate steppe of China.We found that Caragana enhanced N concentration and leaf quality (low C:N ratio) in neighbouring plants more on mesic sites than on xeric sites. Thus, precipitation are important in determining the nutritional facilitation to neighbouring grasses from encroaching leguminous shrubs along stress gradients.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PAstures and Climate Extreme (PACE)</title>
+      <link>/project/pace/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pace/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; &lt;strong&gt;Impacts of Rainfall and Temperature Extremes On Pasture Systems&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Grasses and legumes are the primary foodstock for the meat and dairy industries, with an estimated value of more than $16.5 billion in cattle, sheep, wool, dairy and meat production (Australian Bureau of Statistics). The sustainable management of grazing systems depends on the availability of high-quality forage, year-round.&lt;/p&gt;
+
+&lt;p&gt;A key question facing the industry is how will predicted climate scenarios affect the productivity, quality and resilience of pasture systems in coming decades. According to the IPCC Report (2013), Australia will experience more severe and frequent heatwaves, greater frequency and longer droughts, and increased flooding periods.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; &lt;strong&gt;Developing Adaptation Strategies&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The new PACE facility and research program will enable us to &amp;lsquo;stress-test&amp;rsquo; different combinations of plant species, including, combinations of C3 and C4 grasses, and legumes by exposing them to increased or reduced rainfall, increased temperatures, drought or periodic flooding, or any number of other scenarios.&lt;/p&gt;
+
+&lt;p&gt;The plantings will also investigate the important roles of soil microbes in pasture ecosystems. Our ongoing research from across the Institute on soil biology, insect-plant interactions and climate impacts on plants and animals supports this new research direction, offering the grazing and dairy industries new ways to proactively manage the impacts of climate change and extreme events on the feedbase that underpins their success.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Useful notes about markdown</title>
+      <link>/post/useful-notes-about-markdown/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/useful-notes-about-markdown/</guid>
+      <description>&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#ten-simple-notes-aout-r-markdown&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;ten-simple-notes-aout-r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;italic&lt;/em&gt; : put context inside two stars&lt;code&gt;**&lt;/code&gt;, you got italic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; : put context inside four stars&lt;code&gt;****&lt;/code&gt;, you had bold&lt;/li&gt;
+&lt;li&gt;If you want to break the line, you just need to enter the &lt;strong&gt;return twice&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;superlink: &lt;code&gt;[showed_context](link)&lt;/code&gt;. The link inside will guide you to the website that linked with &lt;em&gt;showed_context&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;email: &lt;code&gt;&amp;lt;haiyang@gmail.com&amp;gt;&lt;/code&gt;. The &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt; is used for email with links.&lt;/li&gt;
+&lt;li&gt;insert internet picture &lt;code&gt;![](link)&lt;/code&gt;. Further steps: define the width of the figure will be like &lt;code&gt;&amp;lt;img src=&amp;quot;link&amp;quot;, width=&amp;quot;100&amp;quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If want to quote, put a &lt;code&gt;&amp;gt;&lt;/code&gt; ahead of the paragraph. One more &lt;code&gt;&amp;gt;&lt;/code&gt;, one further step for indentation.&lt;/li&gt;
+&lt;li&gt;If you want red, simple put context inside two `.&lt;/li&gt;
+&lt;li&gt;If want a bullet, put a &lt;code&gt;*&lt;/code&gt; ahead of the paragraph.&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Be careful about the snakes, spiders and any other thing that can &lt;a href=&#34;https://github.com/&#34;&gt;move&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intraspecific variation drives community-level stoichiometric responses to nitrogen and water enrichment in a temperate steppe</title>
+      <link>/publication/2017-plantsoil_lv/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-plantsoil_lv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facilitation by leguminous shrubs increases along a precipitation gradient</title>
+      <link>/publication/2017-functional_hai/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-functional_hai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nitrogen deposition promotes phosphorus uptake of plants in a semi-arid temperate grassland</title>
+      <link>/publication/2016-plantsoil_long/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-plantsoil_long/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The fate of fertilizer nitrogen in a high nitrate accumulated agricultural soil</title>
+      <link>/publication/2016-sr_quan/</link>
+      <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-sr_quan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impacts of leguminous shrub encroachment on neighboring grasses include transfer of fixed nitrogen</title>
+      <link>/publication/2016-oecologia_hai/</link>
+      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-oecologia_hai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plant carbon limitation does not reduce nitrogen transfer from arbuscular mycorrhizal fungi to Plantago lanceolata</title>
+      <link>/publication/2015-plantsoil_hai/</link>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2015-plantsoil_hai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sampling Date, Leaf Age and Root Size: Implications for the Study of Plant C:N:P Stoichiometry</title>
+      <link>/publication/2013-plosone_hai/</link>
+      <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-plosone_hai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nitrogen Addition Regulates Soil Nematode Community Composition through Ammonium Suppression</title>
+      <link>/publication/2012-plosone_wei/</link>
+      <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2012-plosone_wei/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

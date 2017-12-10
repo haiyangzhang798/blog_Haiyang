@@ -1,0 +1,40 @@
+---
+title: Useful notes about markdown
+author: Haiyang Zhang
+date: '2017-12-10'
+slug: Useful-notes-about-markdown
+categories:
+  - R
+tags:
+  - blogdown
+summary: Useful notes about markdown
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+    toc_depth: 1
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = NA, tidy = FALSE)
+```
+
+
+# Ten simple notes aout R markdown
+
+
+ 1. *italic* : put context inside two stars`**`, you got italic
+ 2. **bold** : put context inside four stars`****`, you had bold
+ 3. If you want to break the line, you just need to enter the **return twice**.
+ 4. superlink: `[showed_context](link)`. The link inside will guide you to the website that linked with *showed_context*.
+ 5. email: `<haiyang@gmail.com>`. The `<>` is used for email with links.
+ 6. insert internet picture `![](link)`. Further steps: define the width of the figure will be like `<img src="link", width="100">`.
+ 7. If want to quote, put a `>` ahead of the paragraph. One more `>`, one further step for indentation.
+ 8. If you want red, simple put context inside two `.
+ 9. If want a bullet, put a `*` ahead of the paragraph. 
+ 10.
+{{% alert note %}}
+Be careful about the snakes, spiders and any other thing that can [move](https://github.com/). 
+{{% /alert %}}
+    
+ 

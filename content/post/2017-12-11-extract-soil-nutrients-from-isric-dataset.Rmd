@@ -1,0 +1,11 @@
+---
+title: extract soil nutrients from isric dataset
+author: Haiyang
+date: '2017-12-11'
+slug: extract-soil-nutrients-from-isric-dataset
+categories:
+  - R
+tags: []
+draft: yes
+---
+# This is only a test and I will come back later.
