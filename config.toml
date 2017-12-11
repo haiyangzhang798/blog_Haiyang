@@ -1,4 +1,4 @@
-baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://www.haiyangzhang.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 relativeURLs = true
 
 title = "Haiyang Zhang"
@@ -227,7 +227,7 @@ defaultContentLanguageInSubdir = false
 #   The weight parameter defines the order that the links will appear in.
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
-  align_right = true
+  #align_right = true
 
 [[menu.main]]
   name = "Home"

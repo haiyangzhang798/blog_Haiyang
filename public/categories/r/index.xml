@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Haiyang Zhang</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Haiyang Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <lastBuildDate>Mon, 11 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/r/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>extract soil nutrients from isric dataset</title>
+      <link>/post/extract-soil-nutrients-from-isric-dataset/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/extract-soil-nutrients-from-isric-dataset/</guid>
+      <description>&lt;div id=&#34;this-is-only-a-test-and-i-will-come-back-later.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;This is only a test and I will come back later.&lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Useful notes about markdown</title>
+      <link>/post/useful-notes-about-markdown/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/useful-notes-about-markdown/</guid>
+      <description>&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#ten-simple-notes-aout-r-markdown&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;ten-simple-notes-aout-r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;italic&lt;/em&gt; : put context inside two stars&lt;code&gt;**&lt;/code&gt;, you got italic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; : put context inside four stars&lt;code&gt;****&lt;/code&gt;, you had bold&lt;/li&gt;
+&lt;li&gt;If you want to break the line, you just need to enter the &lt;strong&gt;return twice&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;superlink: &lt;code&gt;[showed_context](link)&lt;/code&gt;. The link inside will guide you to the website that linked with &lt;em&gt;showed_context&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;email: &lt;code&gt;&amp;lt;haiyang@gmail.com&amp;gt;&lt;/code&gt;. The &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt; is used for email with links.&lt;/li&gt;
+&lt;li&gt;insert internet picture &lt;code&gt;![](link)&lt;/code&gt;. Further steps: define the width of the figure will be like &lt;code&gt;&amp;lt;img src=&amp;quot;link&amp;quot;, width=&amp;quot;100&amp;quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If want to quote, put a &lt;code&gt;&amp;gt;&lt;/code&gt; ahead of the paragraph. One more &lt;code&gt;&amp;gt;&lt;/code&gt;, one further step for indentation.&lt;/li&gt;
+&lt;li&gt;If you want red, simple put context inside two `.&lt;/li&gt;
+&lt;li&gt;If want a bullet, put a &lt;code&gt;*&lt;/code&gt; ahead of the paragraph.&lt;/li&gt;
+&lt;li&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Be careful about the snakes, spiders and any other thing that can &lt;a href=&#34;https://github.com/&#34;&gt;move&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
