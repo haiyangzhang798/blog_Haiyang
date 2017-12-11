@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nutritent Uptake on Haiyang Zhang</title>
+    <link>/tags/nutritent-uptake/</link>
+    <description>Recent content in Nutritent Uptake on Haiyang Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/nutritent-uptake/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arbuscular mycorrhizal fungi-mediated nitrogen transfer</title>
+      <link>/project/plant_amf/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/plant_amf/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;
+The goal of this project is to investigate how plant carbohydrates control arbuscular mycorrhizal fungi-mediated nitrogen transfer. Using isotopic labeling (13C and 15N) technology, we have shown that plant C limitation does not reduce N transfer from arbuscular mycorrhizal fungi (AMF) to Plantago lanceolata. Instead, we have revealed greater N-for-C exchange efficiency between plant and AMF under plant C limitation (low CO2 concentration). C-limited host plants with AMF optimized the use of resources by increasing both C and N allocation to shoots to alleviate C limitation. This project was funded by Max Planck Institute and DAAD.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
