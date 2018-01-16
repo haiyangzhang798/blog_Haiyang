@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Haiyang Zhang</title>
-    <link>/post/</link>
+    <link>https://www.haiyangzhang.com/post/</link>
     <description>Recent content in Posts on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,23 +11,11 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>extract soil nutrients from isric dataset</title>
-      <link>/post/extract-soil-nutrients-from-isric-dataset/</link>
-      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/extract-soil-nutrients-from-isric-dataset/</guid>
-      <description>&lt;div id=&#34;this-is-only-a-test-and-i-will-come-back-later.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;This is only a test and I will come back later.&lt;/h1&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Useful notes about markdown</title>
-      <link>/post/useful-notes-about-markdown/</link>
+      <link>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/useful-notes-about-markdown/</guid>
+      <guid>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</guid>
       <description>&lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#ten-simple-notes-aout-r-markdown&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/a&gt;&lt;/li&gt;
