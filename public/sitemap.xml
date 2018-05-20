@@ -5,7 +5,16 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2018_geb_haiyang/</loc>
+      <loc>/post/2018-05-17-pace_story/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2018_geb_haiyang/</loc>
       <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +23,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/project/plant_amf/</loc>
+      <loc>/project/plant_amf/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +32,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/project/shrub/</loc>
+      <loc>/project/shrub/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +41,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/project/pace/</loc>
+      <loc>/project/pace/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +50,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</loc>
+      <loc>/post/useful-notes-about-markdown/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +59,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2017-plantsoil_lv/</loc>
+      <loc>/publication/2017-plantsoil_lv/</loc>
       <lastmod>2017-12-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +68,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2017-functional_hai/</loc>
+      <loc>/publication/2017-functional_hai/</loc>
       <lastmod>2017-08-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +77,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +86,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +95,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+11:00</lastmod>
     </url>
     
@@ -95,7 +104,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2016-plantsoil_long/</loc>
+      <loc>/publication/2016-plantsoil_long/</loc>
       <lastmod>2016-08-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +113,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2016-sr_quan/</loc>
+      <loc>/publication/2016-sr_quan/</loc>
       <lastmod>2016-02-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +122,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2016-oecologia_hai/</loc>
+      <loc>/publication/2016-oecologia_hai/</loc>
       <lastmod>2016-01-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +131,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2015-plantsoil_hai/</loc>
+      <loc>/publication/2015-plantsoil_hai/</loc>
       <lastmod>2015-07-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +140,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2013-plosone_hai/</loc>
+      <loc>/publication/2013-plosone_hai/</loc>
       <lastmod>2013-04-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +149,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication/2012-plosone_wei/</loc>
+      <loc>/publication/2012-plosone_wei/</loc>
       <lastmod>2012-08-31T00:00:00+00:00</lastmod>
     </url>
     
@@ -149,7 +158,15 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication_types/2/</loc>
+      <loc>/project/pace/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
       <lastmod>2018-02-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -159,7 +176,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/amf/</loc>
+      <loc>/tags/amf/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -169,7 +186,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/blogdown/</loc>
+      <loc>/tags/blogdown/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -179,7 +196,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -188,7 +205,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/climate-extreme/</loc>
+      <loc>/tags/climate-extreme/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -198,7 +215,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/</loc>
+      <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -208,7 +225,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/legumes/</loc>
+      <loc>/tags/legumes/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -218,7 +235,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/nutritent-uptake/</loc>
+      <loc>/tags/nutritent-uptake/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -228,7 +245,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/pasture/</loc>
+      <loc>/tags/pasture/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -238,7 +255,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/plant-plant-interaction/</loc>
+      <loc>/tags/plant-plant-interaction/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -248,7 +265,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -258,7 +275,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <lastmod>2018-02-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -268,7 +285,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/categories/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -278,7 +295,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/symbiosis/</loc>
+      <loc>/tags/symbiosis/</loc>
       <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -288,7 +305,7 @@
     
     <url>
     
-      <loc>https://www.haiyangzhang.com/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
