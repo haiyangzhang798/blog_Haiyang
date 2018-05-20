@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "plant_amf_results.png"
+image="plant_amf_results.png"
 caption = ""
 
 +++
