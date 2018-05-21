@@ -34,6 +34,7 @@ We measured N concentrations and natural abundance 15N of shoot tissues from thr
 
 
 ![](shrub_encroch_results.png) 
+
 **Regional study**
 
 We further investigated how shrubs mediated N dynamics and how shrub–grass interactions varied along a precipitation gradient (147–342 mm) in a temperate steppe of China.We found that Caragana enhanced N concentration and leaf quality (low C:N ratio) in neighbouring plants more on mesic sites than on xeric sites. Thus, precipitation are important in determining the nutritional facilitation to neighbouring grasses from encroaching leguminous shrubs along stress gradients.
