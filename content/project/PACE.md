@@ -40,7 +40,9 @@ The plantings will also investigate the important roles of soil microbes in past
 
 <span style="color:red"> **Pace is ready!** 
 
+Kick-start at the field and so many great people are involved, plant physiologist, microbiologist, ecosystem biogeochemist, and also modelers.
+
 <img src="/project/PACE_files/pace_party.jpg" alt="" width="80%"/>
 
-Kick-start at the field and so many great people are involved, plant physiologist, microbiologist, ecosystem biogeochemist, and also modelers. Haiyang will target on plant symbiosis and check how climate extremes will affect the interaction between plant and two major beneficial microbes, i.e. rhizobium and arbuscular mycorrhizal fungi. Hopefully, after we get an idea how these interactions response to different climate scenarios, one can come out with a corresponding strategy that using these symbioses to improve the plant water and nutrient use efficiency, reduce resource losses and in the end, help the plant to survive and more resistant!
+Haiyang will target on plant symbiosis and check how climate extremes will affect the interaction between plant and two major beneficial microbes, i.e. rhizobium and arbuscular mycorrhizal fungi. Hopefully, after we get an idea how these interactions response to different climate scenarios, one can come out with a corresponding strategy that using these symbioses to improve the plant water and nutrient use efficiency, reduce resource losses and in the end, help the plant to survive and more resistant!
 
