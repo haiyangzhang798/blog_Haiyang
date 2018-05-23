@@ -37,3 +37,10 @@ A key question facing the industry is how will predicted climate scenarios affec
 The new PACE facility and research program will enable us to 'stress-test' different combinations of plant species, including, combinations of C3 and C4 grasses, and legumes by exposing them to increased or reduced rainfall, increased temperatures, drought or periodic flooding, or any number of other scenarios.
 
 The plantings will also investigate the important roles of soil microbes in pasture ecosystems. Our ongoing research from across the Institute on soil biology, insect-plant interactions and climate impacts on plants and animals supports this new research direction, offering the grazing and dairy industries new ways to proactively manage the impacts of climate change and extreme events on the feedbase that underpins their success.
+
+Pace is readdy!
+
+<img src="/project/PACE_files/pace_party.jpg" alt="" width="80%"/>
+
+Kick-start at the field and so many great people are involved, plant physiologist, microbiologist, ecosystem biogeochemist, and also modelers. Haiyang will target on plant symbiosis and check how climate extremes will affect the interaction between plant and two major beneficial microbes, i.e. rhizobium and arbuscular mycorrhizal fungi. Hopefully, after we get an idea how these interactions response to different climate scenarios, one can come out with a corresponding strategy that using these symbioses to improve the plant water and nutrient use efficiency, reduce resource losses and in the end, help the plant to survive and more resistant!
+
