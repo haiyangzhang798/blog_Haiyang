@@ -1,0 +1,26 @@
+---
+title: "Learn notes from HIE R course: community analysis"
+author: "Haiyang Zhang"
+date: '2018-05-29'
+slug: R statistics
+categories:
+  - R
+tags:
+  - blogdown
+summary: 
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+    toc_depth: 1
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(eval = FALSE, collapse = TRUE, comment = NA, tidy = FALSE)
+```
+
+
+
+#RDA
+#PCA
+#NMDS

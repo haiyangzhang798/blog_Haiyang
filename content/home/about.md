@@ -1,28 +1,19 @@
-+++
-# About/Biography widget.
-widget = "about"
-active = true
-date = "2016-04-20T00:00:00"
-
-# Order that this section will appear in.
-weight = 5
-
-# List your academic interests.
-[interests]
-  interests = [
-    "Plant-microbe interaction",
-    "Mycorrhzai fungi",
-    "Rhizobium research"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Ecology"
-  institution = "Chinese Academy of Sciences"
-  year = 2015
-
-
-+++
+---
+active: true
+date: 2016-04-20T00:00:00
+education:
+  courses:
+  - course: PhD in Ecology
+    institution: Chinese Academy of Sciences
+    year: 2015
+interests:
+  interests:
+  - Plant-microbe interaction
+  - Mycorrhzai fungi
+  - Rhizobium research
+weight: 5
+widget: about
+---
 
 # About me
 

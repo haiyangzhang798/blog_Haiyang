@@ -1,31 +1,26 @@
-+++
-# Date this page was created.
-date = "2017-12-10"
+---
+date: 2017-12-10
+external_link: ""
+header:
+  caption: ""
+  image: PACE.jpg
+image_preview: PACE.jpg
+math: false
+summary: In a new project funded by Meat and Livestock Australia's MLA Donor Company,
+  Western Sydney University is investing in the construction of new pasture research
+  infrastructure to gain insights into the outcomes and performance of grass and legume
+  pasture systems as Australia's climate becomes warmer, with more variable rainfall
+  and operating environments become less certain. Within the PAstures and Climate
+  Extreme (PACE) research program, researchers will be testing combinations of plant
+  species, rainfall additions or exclusions (drought), warming from infra-red heat
+  lamps and the performance of pasture systems under future predicted climate scenarios.
+tags:
+- climate extreme
+- pasture
+- symbiosis
+title: PAstures and Climate Extreme (PACE)
+---
 
-# Project title.
-title = "PAstures and Climate Extreme (PACE)"
-
-# Project summary to display on homepage.
-summary = "In a new project funded by Meat and Livestock Australia's MLA Donor Company, Western Sydney University is investing in the construction of new pasture research infrastructure to gain insights into the outcomes and performance of grass and legume pasture systems as Australia's climate becomes warmer, with more variable rainfall and operating environments become less certain. Within the PAstures and Climate Extreme (PACE) research program, researchers will be testing combinations of plant species, rainfall additions or exclusions (drought), warming from infra-red heat lamps and the performance of pasture systems under future predicted climate scenarios."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "PACE.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["climate extreme", "pasture", "symbiosis"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image="PACE.jpg"
-caption = ""
-
-+++
 <span style="color:red"> **Impacts of Rainfall and Temperature Extremes On Pasture Systems** 
 
 Grasses and legumes are the primary foodstock for the meat and dairy industries, with an estimated value of more than $16.5 billion in cattle, sheep, wool, dairy and meat production (Australian Bureau of Statistics). The sustainable management of grazing systems depends on the availability of high-quality forage, year-round.
