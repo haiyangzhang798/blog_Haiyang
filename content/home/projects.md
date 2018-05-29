@@ -32,6 +32,12 @@ filter_default = 0
   name = "All"
   tag = "*"
 
+<<<<<<< HEAD
+=======
+[[filter]]
+  name = "Deep Learning"
+  tag = ".deep-learning"
+>>>>>>> 463fa6c1173ba864b5b62b179836b96185175a6b
 
 [[filter]]
   name = "Other"
