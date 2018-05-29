@@ -2,46 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Haiyang Zhang</title>
-    <link>https://www.haiyangzhang.com/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1100</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learn notes from HIE R course: community analysis</title>
+      <link>/post/r-statistics/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-statistics/</guid>
+      <description> 1 RDA 2 PCA 3 NMDS   1 RDA  2 PCA  3 NMDS  </description>
+    </item>
+    
+    <item>
+      <title>Plants can detect an imminent animal attack, by what?</title>
+      <link>/post/mycorrhizal-story/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mycorrhizal-story/</guid>
+      <description>1 Tomato plants can detect an imminent animal attack   1 Tomato plants can detect an imminent animal attack Sunny day at the garden, Lady plant tomato is busy with eating the CO2 in the atmosphere but did not pay much attention to the Mr. Snail is getting close. However, there is already a signal transfer from the soil to the Lady plant tomato and calling: the snail is coming, even before any touched occurs from the snail!</description>
+    </item>
     
     <item>
       <title>Useful notes about markdown</title>
-      <link>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</link>
+      <link>/post/useful-notes-about-markdown/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</guid>
-      <description>&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#ten-simple-notes-aout-r-markdown&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;ten-simple-notes-aout-r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/h1&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;em&gt;italic&lt;/em&gt; : put context inside two stars&lt;code&gt;**&lt;/code&gt;, you got italic&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; : put context inside four stars&lt;code&gt;****&lt;/code&gt;, you had bold&lt;/li&gt;
-&lt;li&gt;If you want to break the line, you just need to enter the &lt;strong&gt;return twice&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;superlink: &lt;code&gt;[showed_context](link)&lt;/code&gt;. The link inside will guide you to the website that linked with &lt;em&gt;showed_context&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;email: &lt;code&gt;&amp;lt;haiyang@gmail.com&amp;gt;&lt;/code&gt;. The &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt; is used for email with links.&lt;/li&gt;
-&lt;li&gt;insert internet picture &lt;code&gt;![](link)&lt;/code&gt;. Further steps: define the width of the figure will be like &lt;code&gt;&amp;lt;img src=&amp;quot;link&amp;quot;, width=&amp;quot;100&amp;quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;If want to quote, put a &lt;code&gt;&amp;gt;&lt;/code&gt; ahead of the paragraph. One more &lt;code&gt;&amp;gt;&lt;/code&gt;, one further step for indentation.&lt;/li&gt;
-&lt;li&gt;If you want red, simple put context inside two `.&lt;/li&gt;
-&lt;li&gt;If want a bullet, put a &lt;code&gt;*&lt;/code&gt; ahead of the paragraph.&lt;/li&gt;
-&lt;li&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Be careful about the snakes, spiders and any other thing that can &lt;a href=&#34;https://github.com/&#34;&gt;move&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <guid>/post/useful-notes-about-markdown/</guid>
+      <description>1 Ten simple notes aout R markdown   1 Ten simple notes aout R markdown italic : put context inside two stars**, you got italic bold : put context inside four stars****, you had bold If you want to break the line, you just need to enter the return twice. superlink: [showed_context](link). The link inside will guide you to the website that linked with showed_context. email: &amp;lt;haiyang@gmail.com&amp;gt;. The &amp;lt;&amp;gt; is used for email with links.</description>
     </item>
     
   </channel>

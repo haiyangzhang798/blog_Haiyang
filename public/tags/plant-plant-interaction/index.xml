@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plant Plant Interaction on Haiyang Zhang</title>
+    <title>Plant-plant interaction on Haiyang Zhang</title>
     <link>/tags/plant-plant-interaction/</link>
-    <description>Recent content in Plant Plant Interaction on Haiyang Zhang</description>
+    <description>Recent content in Plant-plant interaction on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/plant-plant-interaction/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/tags/plant-plant-interaction/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Leguminous shrub encroachment and N transfer</title>
@@ -16,15 +18,8 @@
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/shrub/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Local study&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We measured N concentrations and natural abundance 15N of shoot tissues from three dominant grasses from different plant functional groups across seven distances along a local transect (up to 500 cm) to the leguminous shrub, Caragana microphylla. Our results indicated the rhizomatous grass transferred fixed N over long distances while bunchgrasses did not. The presence of C. microphylla increased the shoot biomass of L. chinensis but decreased that of S. grandis and A. sibiricum. These findings highlight the potential role of nutrient-acquisition strategies of neighboring grasses in moderating the interspecific variation of fixed N transfer from the leguminous shrub.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../Users/zhanghaiyang/blog_haiyang/static/img/shrub_encroch_results.png&#34; /&gt;
-&lt;strong&gt;Regional study&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We further investigated how shrubs mediated N dynamics and how shrub–grass interactions varied along a precipitation gradient (147–342 mm) in a temperate steppe of China.We found that Caragana enhanced N concentration and leaf quality (low C:N ratio) in neighbouring plants more on mesic sites than on xeric sites. Thus, precipitation are important in determining the nutritional facilitation to neighbouring grasses from encroaching leguminous shrubs along stress gradients.&lt;/p&gt;
-</description>
+      <description>Local study
+We measured N concentrations and natural abundance 15N of shoot tissues from three dominant grasses from different plant functional groups across seven distances along a local transect (up to 500 cm) to the leguminous shrub, Caragana microphylla. Our results indicated the rhizomatous grass transferred fixed N over long distances while bunchgrasses did not. The presence of C. microphylla increased the shoot biomass of L. chinensis but decreased that of S.</description>
     </item>
     
   </channel>

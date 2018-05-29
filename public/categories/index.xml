@@ -6,13 +6,15 @@
     <description>Recent content in Categories on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
-    <atom:link href="/categories/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018</copyright>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
       <description></description>

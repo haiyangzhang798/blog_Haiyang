@@ -2,57 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haiyang Zhang on Haiyang Zhang</title>
-    <link>https://www.haiyangzhang.com/</link>
+    <link>/</link>
     <description>Recent content in Haiyang Zhang on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Learn notes from HIE R course: community analysis</title>
+      <link>/post/r-statistics/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-statistics/</guid>
+      <description>&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#rda&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; RDA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pca&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; PCA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nmds&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; NMDS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;rda&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; RDA&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pca&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; PCA&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;nmds&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; NMDS&lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plants can detect an imminent animal attack, by what?</title>
+      <link>/post/mycorrhizal-story/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mycorrhizal-story/</guid>
+      <description>&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tomato-plants-can-detect-an-imminent-animal-attack&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Tomato plants can detect an imminent animal attack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;tomato-plants-can-detect-an-imminent-animal-attack&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Tomato plants can detect an imminent animal attack&lt;/h1&gt;
+&lt;p&gt;Sunny day at the garden, Lady plant tomato is busy with eating the CO2 in the atmosphere but did not pay much attention to the Mr. Snail is getting close. However, there is already a signal transfer from the soil to the Lady plant tomato and calling: the snail is coming, even before any touched occurs from the snail!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./post/2018-05-28-hey-mr-snial-i-can-smell-you_files/tomato.jpg&#34; alt=&#34;&#34; width=&#34;70%&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;This story comes from a recently published paper ( &lt;a href=&#34;https://link.springer.com/article/10.1007/s00442-018-4070-1&#34;&gt;Oecologia&lt;/a&gt;) from ecologist John Orrock of the University of Wisconsin–Madison. They squirted snail slime—slippery liquid substances exduated by snails when they slide along—into the soil, and then nearby tomato plants appeared to notice. Tomato plants increased their levels of an enzyme called lipoxygenase, which is known to defense herbivores. From Scientific American: “None of the plants were ever actually attacked,” says John Orrock. “We just gave them cues that suggested an attack was coming, and that was enough to trigger big changes in their chemistry…”&lt;/p&gt;
+&lt;p&gt;To me, this is a really cool story! I wonder how the tomato plants detected chemicals in snail slime that never actually touched them. As a super fan of mycorrhizal fungi, I cannot help suggesting mycorrhizal fungi or the hyphae network might play a role here. Evidence showed that &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/10.1111/ele.12115&#34;&gt;underground defense signals can carry through common mycelial networks warn neighboring plants of aphid attack&lt;/a&gt; and &lt;a href=&#34;https://www.nature.com/articles/srep03915&#34;&gt;hijacking these networks will affect the herbivore-induced defense signal transfer between tomato plants&lt;/a&gt;. If mycorrhizal fungi can directly smell the slime from the snail, even without directly touch the plant itself, the signal will still transfer to the plant by mycorrhizal hyphae already.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Foliar nutrient resorption differs between arbuscular mycorrhizal and ectomycorrhizal trees at local and global scales</title>
-      <link>https://www.haiyangzhang.com/publication/2018_geb_haiyang/</link>
+      <link>/publication/2018_geb_haiyang/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2018_geb_haiyang/</guid>
+      <guid>/publication/2018_geb_haiyang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arbuscular mycorrhizal fungi-mediated nitrogen transfer</title>
-      <link>https://www.haiyangzhang.com/project/plant_amf/</link>
+      <link>/project/plant_amf/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/project/plant_amf/</guid>
+      <guid>/project/plant_amf/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;
-The goal of this project is to investigate how plant carbohydrates control arbuscular mycorrhizal fungi-mediated nitrogen transfer. Using isotopic labeling (13C and 15N) technology, we have shown that plant C limitation does not reduce N transfer from arbuscular mycorrhizal fungi (AMF) to Plantago lanceolata. Instead, we have revealed greater N-for-C exchange efficiency between plant and AMF under plant C limitation (low CO2 concentration). C-limited host plants with AMF optimized the use of resources by increasing both C and N allocation to shoots to alleviate C limitation. This project was funded by Max Planck Institute and DAAD.&lt;/p&gt;
+The goal of this project is to investigate how plant carbohydrates control arbuscular mycorrhizal fungi-mediated nitrogen transfer. Using isotopic labeling (13C and 15N) technology, we have shown that plant C limitation does not reduce N transfer from arbuscular mycorrhizal fungi (AMF) to Plantago lanceolata. Instead, we have revealed greater N-for-C exchange efficiency between plant and AMF under plant C limitation (low CO2 concentration). C-limited host plants with AMF optimized the use of resources by increasing both C and N allocation to shoots to alleviate C limitation. This project was funded by Max Planck Institute and DAAD.
+&lt;img src=&#34;./project/plant_AMF_files/plant_amf_results.png&#34; alt=&#34;&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Leguminous shrub encroachment and N transfer</title>
-      <link>https://www.haiyangzhang.com/project/shrub/</link>
+      <link>/project/shrub/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/project/shrub/</guid>
+      <guid>/project/shrub/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Local study&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;We measured N concentrations and natural abundance 15N of shoot tissues from three dominant grasses from different plant functional groups across seven distances along a local transect (up to 500 cm) to the leguminous shrub, Caragana microphylla. Our results indicated the rhizomatous grass transferred fixed N over long distances while bunchgrasses did not. The presence of C. microphylla increased the shoot biomass of L. chinensis but decreased that of S. grandis and A. sibiricum. These findings highlight the potential role of nutrient-acquisition strategies of neighboring grasses in moderating the interspecific variation of fixed N transfer from the leguminous shrub.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./Users/zhanghaiyang/blog_haiyang/static/img/shrub_encroch_results.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;./project/shrub_files/shrub_encroch_results.png&#34; alt=&#34;&#34; width=&#34;50%&#34;/&gt;
 &lt;strong&gt;Regional study&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;We further investigated how shrubs mediated N dynamics and how shrub–grass interactions varied along a precipitation gradient (147–342 mm) in a temperate steppe of China.We found that Caragana enhanced N concentration and leaf quality (low C:N ratio) in neighbouring plants more on mesic sites than on xeric sites. Thus, precipitation are important in determining the nutritional facilitation to neighbouring grasses from encroaching leguminous shrubs along stress gradients.&lt;/p&gt;
+&lt;p&gt;We further investigated how shrubs mediated N dynamics and how shrub–grass interactions varied along a precipitation gradient (147–342 mm) in a temperate steppe of China.We found that Caragana enhanced N concentration and leaf quality (low C:N ratio) in neighbouring plants more on mesic sites than on xeric sites. Thus, precipitation are important in determining the nutritional facilitation to neighbouring grasses from encroaching leguminous shrubs along stress gradients.
+&lt;img src=&#34;./project/shrub_files/shrub_encroch.png&#34; alt=&#34;&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>PAstures and Climate Extreme (PACE)</title>
-      <link>https://www.haiyangzhang.com/project/pace/</link>
+      <link>/project/pace/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/project/pace/</guid>
+      <guid>/project/pace/</guid>
       <description>&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; &lt;strong&gt;Impacts of Rainfall and Temperature Extremes On Pasture Systems&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Grasses and legumes are the primary foodstock for the meat and dairy industries, with an estimated value of more than $16.5 billion in cattle, sheep, wool, dairy and meat production (Australian Bureau of Statistics). The sustainable management of grazing systems depends on the availability of high-quality forage, year-round.&lt;/p&gt;
@@ -64,15 +114,23 @@ The goal of this project is to investigate how plant carbohydrates control arbus
 &lt;p&gt;The new PACE facility and research program will enable us to &amp;lsquo;stress-test&amp;rsquo; different combinations of plant species, including, combinations of C3 and C4 grasses, and legumes by exposing them to increased or reduced rainfall, increased temperatures, drought or periodic flooding, or any number of other scenarios.&lt;/p&gt;
 
 &lt;p&gt;The plantings will also investigate the important roles of soil microbes in pasture ecosystems. Our ongoing research from across the Institute on soil biology, insect-plant interactions and climate impacts on plants and animals supports this new research direction, offering the grazing and dairy industries new ways to proactively manage the impacts of climate change and extreme events on the feedbase that underpins their success.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; &lt;strong&gt;Pace is ready!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kick-start at the field and so many great people are involved, plant physiologist, microbiologist, ecosystem biogeochemist, and also modelers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./project/PACE_files/pace_party.jpg&#34; alt=&#34;&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Haiyang will target on plant symbiosis and check how climate extremes will affect the interaction between plant and two major beneficial microbes, i.e. rhizobium and arbuscular mycorrhizal fungi. Hopefully, after we get an idea how these interactions response to different climate scenarios, one can come out with a corresponding strategy that using these symbioses to improve the plant water and nutrient use efficiency, reduce resource losses and in the end, help the plant to survive and more resistant!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Useful notes about markdown</title>
-      <link>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</link>
+      <link>/post/useful-notes-about-markdown/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/post/useful-notes-about-markdown/</guid>
+      <guid>/post/useful-notes-about-markdown/</guid>
       <description>&lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#ten-simple-notes-aout-r-markdown&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Ten simple notes aout R markdown&lt;/a&gt;&lt;/li&gt;
@@ -103,73 +161,74 @@ The goal of this project is to investigate how plant carbohydrates control arbus
     
     <item>
       <title>Intraspecific variation drives community-level stoichiometric responses to nitrogen and water enrichment in a temperate steppe</title>
-      <link>https://www.haiyangzhang.com/publication/2017-plantsoil_lv/</link>
+      <link>/publication/2017-plantsoil_lv/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2017-plantsoil_lv/</guid>
+      <guid>/publication/2017-plantsoil_lv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Facilitation by leguminous shrubs increases along a precipitation gradient</title>
-      <link>https://www.haiyangzhang.com/publication/2017-functional_hai/</link>
+      <link>/publication/2017-functional_hai/</link>
       <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2017-functional_hai/</guid>
+      <guid>/publication/2017-functional_hai/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Example Talk</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1100</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Nitrogen deposition promotes phosphorus uptake of plants in a semi-arid temperate grassland</title>
-      <link>https://www.haiyangzhang.com/publication/2016-plantsoil_long/</link>
+      <link>/publication/2016-plantsoil_long/</link>
       <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2016-plantsoil_long/</guid>
+      <guid>/publication/2016-plantsoil_long/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The fate of fertilizer nitrogen in a high nitrate accumulated agricultural soil</title>
-      <link>https://www.haiyangzhang.com/publication/2016-sr_quan/</link>
+      <link>/publication/2016-sr_quan/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2016-sr_quan/</guid>
+      <guid>/publication/2016-sr_quan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impacts of leguminous shrub encroachment on neighboring grasses include transfer of fixed nitrogen</title>
-      <link>https://www.haiyangzhang.com/publication/2016-oecologia_hai/</link>
+      <link>/publication/2016-oecologia_hai/</link>
       <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2016-oecologia_hai/</guid>
+      <guid>/publication/2016-oecologia_hai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plant carbon limitation does not reduce nitrogen transfer from arbuscular mycorrhizal fungi to Plantago lanceolata</title>
-      <link>https://www.haiyangzhang.com/publication/2015-plantsoil_hai/</link>
+      <link>/publication/2015-plantsoil_hai/</link>
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2015-plantsoil_hai/</guid>
+      <guid>/publication/2015-plantsoil_hai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sampling Date, Leaf Age and Root Size: Implications for the Study of Plant C:N:P Stoichiometry</title>
-      <link>https://www.haiyangzhang.com/publication/2013-plosone_hai/</link>
+      <link>/publication/2013-plosone_hai/</link>
       <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://www.haiyangzhang.com/publication/2013-plosone_hai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nitrogen Addition Regulates Soil Nematode Community Composition through Ammonium Suppression</title>
-      <link>https://www.haiyangzhang.com/publication/2012-plosone_wei/</link>
-      <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.haiyangzhang.com/publication/2012-plosone_wei/</guid>
+      <guid>/publication/2013-plosone_hai/</guid>
       <description></description>
     </item>
     
