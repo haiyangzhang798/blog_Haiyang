@@ -6,22 +6,23 @@
     <description>Recent content in Tags on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1100</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
       <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1100</pubDate>
       
       <guid>/tags/academic/</guid>
-      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
-      <title>Amf</title>
+      <title>AMF</title>
       <link>/tags/amf/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
@@ -32,14 +33,14 @@
     <item>
       <title>Blogdown</title>
       <link>/tags/blogdown/</link>
-      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Climate Extreme</title>
+      <title>Climate extreme</title>
       <link>/tags/climate-extreme/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
@@ -57,7 +58,7 @@
     </item>
     
     <item>
-      <title>Nutritent Uptake</title>
+      <title>Nutritent uptake</title>
       <link>/tags/nutritent-uptake/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
@@ -75,7 +76,7 @@
     </item>
     
     <item>
-      <title>Plant Plant Interaction</title>
+      <title>Plant-plant interaction</title>
       <link>/tags/plant-plant-interaction/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       

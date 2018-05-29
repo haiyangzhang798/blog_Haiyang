@@ -6,9 +6,11 @@
     <description>Recent content in Symbiosis on Haiyang Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Haiyang Zhang</copyright>
+    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/symbiosis/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/tags/symbiosis/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Arbuscular mycorrhizal fungi-mediated nitrogen transfer</title>
@@ -16,9 +18,7 @@
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/plant_amf/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;
-The goal of this project is to investigate how plant carbohydrates control arbuscular mycorrhizal fungi-mediated nitrogen transfer. Using isotopic labeling (13C and 15N) technology, we have shown that plant C limitation does not reduce N transfer from arbuscular mycorrhizal fungi (AMF) to Plantago lanceolata. Instead, we have revealed greater N-for-C exchange efficiency between plant and AMF under plant C limitation (low CO2 concentration). C-limited host plants with AMF optimized the use of resources by increasing both C and N allocation to shoots to alleviate C limitation. This project was funded by Max Planck Institute and DAAD.&lt;/p&gt;
-</description>
+      <description>Summary The goal of this project is to investigate how plant carbohydrates control arbuscular mycorrhizal fungi-mediated nitrogen transfer. Using isotopic labeling (13C and 15N) technology, we have shown that plant C limitation does not reduce N transfer from arbuscular mycorrhizal fungi (AMF) to Plantago lanceolata. Instead, we have revealed greater N-for-C exchange efficiency between plant and AMF under plant C limitation (low CO2 concentration). C-limited host plants with AMF optimized the use of resources by increasing both C and N allocation to shoots to alleviate C limitation.</description>
     </item>
     
     <item>
@@ -27,15 +27,8 @@ The goal of this project is to investigate how plant carbohydrates control arbus
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/shrub/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Local study&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We measured N concentrations and natural abundance 15N of shoot tissues from three dominant grasses from different plant functional groups across seven distances along a local transect (up to 500 cm) to the leguminous shrub, Caragana microphylla. Our results indicated the rhizomatous grass transferred fixed N over long distances while bunchgrasses did not. The presence of C. microphylla increased the shoot biomass of L. chinensis but decreased that of S. grandis and A. sibiricum. These findings highlight the potential role of nutrient-acquisition strategies of neighboring grasses in moderating the interspecific variation of fixed N transfer from the leguminous shrub.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../Users/zhanghaiyang/blog_haiyang/static/img/shrub_encroch_results.png&#34; /&gt;
-&lt;strong&gt;Regional study&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We further investigated how shrubs mediated N dynamics and how shrub–grass interactions varied along a precipitation gradient (147–342 mm) in a temperate steppe of China.We found that Caragana enhanced N concentration and leaf quality (low C:N ratio) in neighbouring plants more on mesic sites than on xeric sites. Thus, precipitation are important in determining the nutritional facilitation to neighbouring grasses from encroaching leguminous shrubs along stress gradients.&lt;/p&gt;
-</description>
+      <description>Local study
+We measured N concentrations and natural abundance 15N of shoot tissues from three dominant grasses from different plant functional groups across seven distances along a local transect (up to 500 cm) to the leguminous shrub, Caragana microphylla. Our results indicated the rhizomatous grass transferred fixed N over long distances while bunchgrasses did not. The presence of C. microphylla increased the shoot biomass of L. chinensis but decreased that of S.</description>
     </item>
     
     <item>
@@ -44,18 +37,9 @@ The goal of this project is to investigate how plant carbohydrates control arbus
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/pace/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; &lt;strong&gt;Impacts of Rainfall and Temperature Extremes On Pasture Systems&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Grasses and legumes are the primary foodstock for the meat and dairy industries, with an estimated value of more than $16.5 billion in cattle, sheep, wool, dairy and meat production (Australian Bureau of Statistics). The sustainable management of grazing systems depends on the availability of high-quality forage, year-round.&lt;/p&gt;
-
-&lt;p&gt;A key question facing the industry is how will predicted climate scenarios affect the productivity, quality and resilience of pasture systems in coming decades. According to the IPCC Report (2013), Australia will experience more severe and frequent heatwaves, greater frequency and longer droughts, and increased flooding periods.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; &lt;strong&gt;Developing Adaptation Strategies&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The new PACE facility and research program will enable us to &amp;lsquo;stress-test&amp;rsquo; different combinations of plant species, including, combinations of C3 and C4 grasses, and legumes by exposing them to increased or reduced rainfall, increased temperatures, drought or periodic flooding, or any number of other scenarios.&lt;/p&gt;
-
-&lt;p&gt;The plantings will also investigate the important roles of soil microbes in pasture ecosystems. Our ongoing research from across the Institute on soil biology, insect-plant interactions and climate impacts on plants and animals supports this new research direction, offering the grazing and dairy industries new ways to proactively manage the impacts of climate change and extreme events on the feedbase that underpins their success.&lt;/p&gt;
-</description>
+      <description>Impacts of Rainfall and Temperature Extremes On Pasture Systems
+Grasses and legumes are the primary foodstock for the meat and dairy industries, with an estimated value of more than $16.5 billion in cattle, sheep, wool, dairy and meat production (Australian Bureau of Statistics). The sustainable management of grazing systems depends on the availability of high-quality forage, year-round.
+A key question facing the industry is how will predicted climate scenarios affect the productivity, quality and resilience of pasture systems in coming decades.</description>
     </item>
     
   </channel>
