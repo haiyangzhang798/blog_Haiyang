@@ -175,8 +175,7 @@ enableGitInfo = false
     'Book section'  # 6
   ]
 
-  # Configuration of talk pages.
-   # Configuration of publication pages.
+  # Configuration of publication pages.
   [params.publications]
     # Date format (refer to Go's date format: http://fuckinggodateformat.com )
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -184,7 +183,7 @@ enableGitInfo = false
 
   # Configuration of project pages.
   [params.projects]
-    # List publications and talks related to the project?
+    # List publications related to the project?
     list_children = true
 
     # Publication list format.
