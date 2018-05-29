@@ -29,7 +29,7 @@ authors:
 - Xing-Guo Han
 - Susan Trumbore
 - Richard P. Phillips
-date: 2018-02-15
+date: "2018-02-15"
 header:
   caption: ""
   image: ""

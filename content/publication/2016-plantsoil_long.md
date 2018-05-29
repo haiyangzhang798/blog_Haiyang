@@ -24,7 +24,7 @@ authors:
 - Haiyang Zhang
 - Xinguo Han
 - Qiang Yu
-date: 2016-08-20
+date: "2016-08-20"
 header:
   caption: ""
   image: ""

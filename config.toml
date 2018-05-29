@@ -175,6 +175,7 @@ enableGitInfo = false
     'Book section'  # 6
   ]
 
+  
   # Configuration of publication pages.
   [params.publications]
     # Date format (refer to Go's date format: http://fuckinggodateformat.com )

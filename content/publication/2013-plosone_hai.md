@@ -23,7 +23,7 @@ authors:
 - Jens Kattge
 - Melinda Smith
 - Xinguo Han
-date: 2013-04-02
+date: "2013-04-02"
 header:
   caption: ""
   image: ""

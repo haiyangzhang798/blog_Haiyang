@@ -27,7 +27,7 @@ authors:
 - Susan Trumbore
 - Junjie Yang
 - Xinguo Han
-date: 2016-01-08
+date: "2016-01-08"
 header:
   caption: ""
   image: ""

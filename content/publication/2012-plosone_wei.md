@@ -37,7 +37,7 @@ authors:
 - Paul Kardol
 - Wenju Liang
 - Xinguo Han
-date: 2012-08-31
+date: "2012-08-31"
 header:
   caption: ""
   image: ""
