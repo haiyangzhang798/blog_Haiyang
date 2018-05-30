@@ -35,7 +35,7 @@ authors:
 - Xiaoguang Wang
 - Qiang Yu
 - Xinguo Han
-date: "2017-08-29"
+date: 2017-08-29
 header:
   caption: ""
   image: ""

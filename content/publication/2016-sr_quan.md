@@ -23,7 +23,7 @@ authors:
 - Xin Chen
 - Haiyang Zhang
 - Yunting Fang
-date: "2016-02-26"
+date: 2016-02-26
 header:
   caption: ""
   image: ""

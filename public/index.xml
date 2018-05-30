@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Haiyang Zhang on Haiyang Zhang</title>
+    <title>MYCOLab on MYCOLab</title>
     <link>/</link>
-    <description>Recent content in Haiyang Zhang on Haiyang Zhang</description>
+    <description>Recent content in MYCOLab on MYCOLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +1000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -20,7 +20,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#rda&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; RDA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#pca&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; PCA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nmds&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; NMDS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nmds&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; NMDS:&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -31,7 +31,7 @@
 &lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; PCA&lt;/h1&gt;
 &lt;/div&gt;
 &lt;div id=&#34;nmds&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; NMDS&lt;/h1&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; NMDS:&lt;/h1&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -178,16 +178,6 @@ The goal of this project is to investigate how plant carbohydrates control arbus
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +1100</pubDate>
-      
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Nitrogen deposition promotes phosphorus uptake of plants in a semi-arid temperate grassland</title>
       <link>/publication/2016-plantsoil_long/</link>
       <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
@@ -229,6 +219,15 @@ The goal of this project is to investigate how plant carbohydrates control arbus
       <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>/publication/2013-plosone_hai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nitrogen Addition Regulates Soil Nematode Community Composition through Ammonium Suppression</title>
+      <link>/publication/2012-plosone_wei/</link>
+      <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2012-plosone_wei/</guid>
       <description></description>
     </item>
     

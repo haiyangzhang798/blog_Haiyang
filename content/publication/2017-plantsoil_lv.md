@@ -29,7 +29,7 @@ authors:
 - GuoJiao Yang
 - ZhuoYi Liu
 - XiaoBo Wang
-date: "2017-12-04"
+date: 2017-12-04
 header:
   caption: ""
   image: ""

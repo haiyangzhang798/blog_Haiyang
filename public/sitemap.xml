@@ -113,15 +113,6 @@
     
     <url>
     
-      <loc>/%E5%8D%9A%E5%AE%A2/</loc>
-      <lastmod>2017-01-01T00:00:00+11:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/2016-plantsoil_long/</loc>
       <lastmod>2016-08-20T00:00:00+00:00</lastmod>
     </url>
@@ -225,8 +216,8 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <loc>/tags/legumes/</loc>
+      <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -235,8 +226,8 @@
     
     <url>
     
-      <loc>/tags/legumes/</loc>
-      <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+      <loc>/</loc>
+      <lastmod>2016-04-20T00:00:00+10:00</lastmod>
       <priority>0</priority>
     </url>
     

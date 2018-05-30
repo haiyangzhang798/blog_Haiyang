@@ -1,5 +1,5 @@
 ---
-date: "2017-12-10"
+date: 2017-12-10
 external_link: ""
 header:
   caption: ""
