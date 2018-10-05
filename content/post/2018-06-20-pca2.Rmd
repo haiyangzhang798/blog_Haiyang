@@ -1,0 +1,59 @@
+---
+title: 排序之PCA2
+author: 张海洋
+date: '2018-06-20'
+slug: pca2
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+这里以一个湿地物种组成的数据为例来看物种组成和环境条件之间的关系。数据包含植物组成和湿地水环境化学组成。
+
+```{r}
+library(vegan)
+chem <- read.delim('https://raw.githubusercontent.com/zdealveindy/anadat-r/master/data/chemistry.txt', row.names = 1)
+chem <- chem[,-15] # removes slope, which is not chemical variables
+PCA <- rda(chem,scale = T) #the argument scale standarizes the variables
+head(summary(PCA))
+```
+
+从结果上看总的变异为14， 第一轴解释了4.3861， 即解释了31%。在这里，因为我们对所有的变量进行过标准化处理（即每一个变量的均值为0，标准差为1）。我们一共包含14个变量，即总变异为14.
+
+```{r}
+stand.chem <- scale(chem)
+stand.chem.var <- apply(stand.chem, 2, var)
+stand.chem.var
+sum(stand.chem.var)
+```
+
+如果想进一步知道每一个变量对于第一轴和第二轴到底贡献了多少我们可以利用score
+
+```{r}
+loadings <- scores(PCA, display = "species", scaling = 0)
+loadings
+```
+
+注意如果在这里不进行变量的标准化，可能会引发一些问题。如果某一变量本身数值较大，其变异程度可能也会很大，这会影响整体分析。另外，具体画图可以适用biplot功能
+
+```{r}
+biplot(PCA, display = "species", scaling = "species")
+```
+
+怎么去理解这个结果？我们可以把第一轴看作是养分轴，即poor-rich gradient.
+
+另一个栗子:对数据进行转化的情况.这里我们介绍一个在进行pca分析前对数据进行hellinger转化。
+套路：读入数据 —— 数据转化 —— pca分析 —— 做图
+
+```{r}
+vltava.spe <- read.delim ('https://raw.githubusercontent.com/zdealveindy/anadat-r/master/data/vltava-spe.txt', row.names = 1)
+
+vltava.spe.hel <-  decostand(log1p(vltava.spe), "hellinger")
+tbPCA <- rda(vltava.spe.hel)
+
+source ('http://www.davidzeleny.net/anadat-r/doku.php/en:numecolr:cleanplot.pca?do=export_code&codeblock=0') # define the cleanplot.pca function
+cleanplot.pca(tbPCA)
+```
+多说一句，上图中的scaling 1 和 2啥意思呢？
+左图为1的情况，即关注点在对象（或者理解为不同站点，数据中的排）。右图为2的情况，即关注点在描述某一站点的组分（或者理解为物种，即数据中的列）。

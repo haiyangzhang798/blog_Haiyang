@@ -1,0 +1,54 @@
+---
+title: 排序之 PCA & tb-PCA
+author: 张海洋
+date: '2018-06-11'
+slug: pca-tb-pca
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+主成分分析是线性非限制性排序方法。主成分分析的轴是基于特征值（变量解释程度）而排序的。
+
+
+主成分分析相关function简介：
+
+
+$\color{red}{\text{rda()}}$ 源于vegan包。如果相关环境变量没有制定，rda默认的是进行pca分析。如果不用原始数据而是对数据进行了相应转换（利用decostand(),如helinger或者chord转换)，然后运行rda进行tb－PCA。
+
+排序结果可以用$\color{red}{\text{plot()}}$来展示。还可以用biplot() 或者cleanplot.pca。
+
+$\color{red}{\text{evplot()}}$通过可视化方法判断排序轴因子的重要性。using Keiser-Guttman criterion and broken stick model.类似的还有PCAsignificance (library BiodiversityR) - calculates broken-stick model for PCA axes. 
+
+$\color{red}{\text{ordiequilibriumcircle}}$ (library BiodiversityR) - adds the circle of equivalent contribution onto the ordination diagram plotted by vegan's functions ordiplot or biplot. 
+
+
+举个栗子
+我们以草原群落为例。鉴于该草原的物种群落组成相对匀质，我们认为比较适合pca分析。统计上讲可以通过第一DCA轴的长度来判断。
+```{r}
+#读进群落数据
+grasslands.spe <- read.delim('http://www.davidzeleny.net/anadat-r/data-download/grasslands-spe.txt', row.names = 1)
+##读进环境变量
+grasslands.env <- read.delim('http://www.davidzeleny.net/anadat-r/data-download/grasslands-env.txt')
+
+grasslands.spe.log <- log1p(grasslands.spe)
+library(vegan)
+decorana(grasslands.spe.log)
+```
+
+结果中第一个DCA轴的长度为2.7倍的sd(小于3即可适用pca分析)。
+
+```{r}
+PCA <- rda(grasslands.spe.log)
+PCA
+```
+pca轴一和轴二一共解释了(4.625+3.492)/35.4 = 23%。然后就是画图。我们可以设置用不同的形状和颜色代表不同的植被类型。
+```{r}
+vegtype <- as.numeric(grasslands.env$classification)
+ordiplot(PCA, display = "sites", type = "n")
+points(PCA, pch=vegtype, col=vegtype)
+```
+

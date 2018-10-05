@@ -1,0 +1,32 @@
+---
+abstract: '*Aim* Carbon isotope ratios of plants are highly informative for the reconstruction of ancient environments and for the interpretation of plant physiological processes to climate, but their responses to changing atmospheric CO2 concentration are currently debated. Moreover, plants in the geological past have experienced long-term low CO2 concentration (LC). However, the effects of LC on the plant C isotope ratios are still elusive. *Method* To investigate effects of atmospheric CO2 concentration ([CO2]) and drought on isotope ratios of plant metabolites we grew winter wheat (Triticum aestivum) in climate-controlled chambers under different [CO2] covering glacial, pre-industrial, and present concentrations (170, 280, and 400 ppm) and water regimes (well-watered and drought).  *Results* First, we quantified total C isotope discrimination between plant and atmosphere (Δ) using 13C on-line measurements of plant gas exchange and 13C values of plant metabolites, i.e., cellulose, n-alkane, and phospholipid fatty acids (PLFA). We found that LC yielded a higher Δ regardless of water regime, i.e. more 13C-depleted values were found under LC; the effect was stronger for n-C29 alkane (1.5‰/100 ppm) and C16:0 PLFA (1.1‰/100 ppm) than that for cellulose (0.6‰/100 ppm). We then calculated post-photosynthetic C isotope shift (ɛ) between specific metabolites and plant bulk isotope values. δ13Cn-C29 alkane and δ13CPLFA were 8.3‰ and 7.3‰ lighter than the δ13Cbulk under 400 ppm; these depletions became higher (9.8‰ and 8.2‰ lighter than the δ13Cbulk for n-C29 alkane and PLFA, respectively) under 170 ppm. In contrast, δ13Ccellulose was 1.2‰ heavier than the δ13Cbulk under 400 ppm while this enrichment became higher (1.6‰) under 170 ppm. 
+  *Main conclusions* Changes in atmospheric [CO2] affected C fractionation not only via photosynthetic but also post-photosynthetic processes and thus must be taken into account when interpreting C isotopes for paleoclimate reconstruction and future global C cycle prediction.
+authors:
+- Haiyang Zhang
+- Henrik Hartmann
+- Gerd Gleixner
+- Michael Thoma
+- Valérie F. Schwab
+date: 2018-10-05
+header:
+  caption: ""
+  image: ""
+image_preview: ""
+math: true
+publication: In *Geochimica et Cosmochimica Acta*
+publication_short: ""
+publication_types:
+- "2"
+selected: false
+title: Carbon isotope fractionation including photosynthetic and post-photosynthetic processes in C3 plants: low [CO2] matters (accepted)
+url_code: ""
+url_custom:
+- name: View Journal Article
+  url: 
+url_dataset: ""
+url_pdf: ""
+url_project: ""
+url_slides: ""
+url_video: ""
+---
+

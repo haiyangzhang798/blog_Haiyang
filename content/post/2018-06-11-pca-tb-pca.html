@@ -1,0 +1,70 @@
+---
+title: 排序之 PCA & tb-PCA
+author: 张海洋
+date: '2018-06-11'
+slug: pca-tb-pca
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>主成分分析是线性非限制性排序方法。主成分分析的轴是基于特征值（变量解释程度）而排序的。</p>
+<p>主成分分析相关function简介：</p>
+<p><span class="math inline">\(\color{red}{\text{rda()}}\)</span> 源于vegan包。如果相关环境变量没有制定，rda默认的是进行pca分析。如果不用原始数据而是对数据进行了相应转换（利用decostand(),如helinger或者chord转换)，然后运行rda进行tb－PCA。</p>
+<p>排序结果可以用<span class="math inline">\(\color{red}{\text{plot()}}\)</span>来展示。还可以用biplot() 或者cleanplot.pca。</p>
+<p><span class="math inline">\(\color{red}{\text{evplot()}}\)</span>通过可视化方法判断排序轴因子的重要性。using Keiser-Guttman criterion and broken stick model.类似的还有PCAsignificance (library BiodiversityR) - calculates broken-stick model for PCA axes.</p>
+<p><span class="math inline">\(\color{red}{\text{ordiequilibriumcircle}}\)</span> (library BiodiversityR) - adds the circle of equivalent contribution onto the ordination diagram plotted by vegan’s functions ordiplot or biplot.</p>
+<p>举个栗子 我们以草原群落为例。鉴于该草原的物种群落组成相对匀质，我们认为比较适合pca分析。统计上讲可以通过第一DCA轴的长度来判断。</p>
+<pre class="r"><code>#读进群落数据
+grasslands.spe &lt;- read.delim(&#39;http://www.davidzeleny.net/anadat-r/data-download/grasslands-spe.txt&#39;, row.names = 1)</code></pre>
+<pre><code>## Warning in file(file, &quot;rt&quot;): &quot;internal&quot; method cannot handle https
+## redirection to: &#39;https://www.davidzeleny.net/anadat-r/data-download/
+## grasslands-spe.txt&#39;</code></pre>
+<pre><code>## Warning in file(file, &quot;rt&quot;): &quot;internal&quot; method failed, so trying &quot;libcurl&quot;</code></pre>
+<pre class="r"><code>##读进环境变量
+grasslands.env &lt;- read.delim(&#39;http://www.davidzeleny.net/anadat-r/data-download/grasslands-env.txt&#39;)</code></pre>
+<pre><code>## Warning in file(file, &quot;rt&quot;): &quot;internal&quot; method cannot handle https
+## redirection to: &#39;https://www.davidzeleny.net/anadat-r/data-download/
+## grasslands-env.txt&#39;
+
+## Warning in file(file, &quot;rt&quot;): &quot;internal&quot; method failed, so trying &quot;libcurl&quot;</code></pre>
+<pre class="r"><code>grasslands.spe.log &lt;- log1p(grasslands.spe)
+library(vegan)</code></pre>
+<pre><code>## Loading required package: permute</code></pre>
+<pre><code>## Loading required package: lattice</code></pre>
+<pre><code>## This is vegan 2.4-4</code></pre>
+<pre class="r"><code>decorana(grasslands.spe.log)</code></pre>
+<pre><code>## 
+## Call:
+## decorana(veg = grasslands.spe.log) 
+## 
+## Detrended correspondence analysis with 26 segments.
+## Rescaling of axes with 4 iterations.
+## 
+##                   DCA1   DCA2   DCA3   DCA4
+## Eigenvalues     0.2652 0.2285 0.1485 0.1545
+## Decorana values 0.2887 0.2228 0.1676 0.1383
+## Axis lengths    2.6961 2.1441 2.5704 1.8207</code></pre>
+<p>结果中第一个DCA轴的长度为2.7倍的sd(小于3即可适用pca分析)。</p>
+<pre class="r"><code>PCA &lt;- rda(grasslands.spe.log)
+PCA</code></pre>
+<pre><code>## Call: rda(X = grasslands.spe.log)
+## 
+##               Inertia Rank
+## Total            35.4     
+## Unconstrained    35.4   47
+## Inertia is variance 
+## 
+## Eigenvalues for unconstrained axes:
+##   PC1   PC2   PC3   PC4   PC5   PC6   PC7   PC8 
+## 4.625 3.492 2.445 2.297 1.648 1.543 1.479 1.331 
+## (Showed only 8 of all 47 unconstrained eigenvalues)</code></pre>
+<p>pca轴一和轴二一共解释了(4.625+3.492)/35.4 = 23%。然后就是画图。我们可以设置用不同的形状和颜色代表不同的植被类型。</p>
+<pre class="r"><code>vegtype &lt;- as.numeric(grasslands.env$classification)
+ordiplot(PCA, display = &quot;sites&quot;, type = &quot;n&quot;)
+points(PCA, pch=vegtype, col=vegtype)</code></pre>
+<p><img src="/post/2018-06-11-pca-tb-pca_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
