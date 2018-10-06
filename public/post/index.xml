@@ -13,6 +13,42 @@
     
     
     <item>
+      <title>排序之NMDS</title>
+      <link>/post/nmds/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nmds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>排序之PCA2</title>
+      <link>/post/pca2/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pca2/</guid>
+      <description>这里以一个湿地物种组成的数据为例来看物种组成和环境条件之间的关系。数据包含植物组成和湿地水环境化学组成。 library(vegan) ## Loading required package: permute ## Loading required package: lattice ## This is vegan 2.4-4 chem &amp;lt;-</description>
+    </item>
+    
+    <item>
+      <title>排序之 PCA &amp; tb-PCA</title>
+      <link>/post/pca-tb-pca/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pca-tb-pca/</guid>
+      <description>主成分分析是线性非限制性排序方法。主成分分析的轴是基于特征值（变量解释程度）而排序的。 主成分分析相关function简介： \(\color{red}{\text{rda()}}\) 源于vegan包</description>
+    </item>
+    
+    <item>
+      <title>生态学群落分析之多元分析 （1）排序</title>
+      <link>/post/1-pca/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/1-pca/</guid>
+      <description>引子 什么是排序？为啥要排序？咋排？ 群落学数据一般是多维数据，例如群落中物种组成。某一个物种在某一个群落中的多度作为变量，其在不同群落中多度的</description>
+    </item>
+    
+    <item>
       <title>疯一下</title>
       <link>/post/2018-06-09-/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 on MYCOLab</title>
+    <link>/publication_types/0/</link>
+    <description>Recent content in 0 on MYCOLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 06 Oct 2018 21:54:22 +1000</lastBuildDate>
+    
+	<atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carbon isotope fractionation including photosynthetic and post-photosynthetic processes in C3 plants: low [CO2] matters (accepted)</title>
+      <link>/publication/2018_gca_haiyang1/</link>
+      <pubDate>Sat, 06 Oct 2018 21:54:22 +1000</pubDate>
+      
+      <guid>/publication/2018_gca_haiyang1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

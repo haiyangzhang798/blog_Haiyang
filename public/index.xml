@@ -11,6 +11,250 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Carbon isotope fractionation including photosynthetic and post-photosynthetic processes in C3 plants: low [CO2] matters (accepted)</title>
+      <link>/publication/2018_gca_haiyang1/</link>
+      <pubDate>Sat, 06 Oct 2018 21:54:22 +1000</pubDate>
+      
+      <guid>/publication/2018_gca_haiyang1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing nitrogen and water co-limitation of primary productivity in a temperate steppe</title>
+      <link>/publication/2018-plantsoil_lv1/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-plantsoil_lv1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>排序之NMDS</title>
+      <link>/post/nmds/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nmds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>排序之PCA2</title>
+      <link>/post/pca2/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pca2/</guid>
+      <description>&lt;p&gt;这里以一个湿地物种组成的数据为例来看物种组成和环境条件之间的关系。数据包含植物组成和湿地水环境化学组成。&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(vegan)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: permute&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: lattice&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## This is vegan 2.4-4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chem &amp;lt;- read.delim(&amp;#39;https://raw.githubusercontent.com/zdealveindy/anadat-r/master/data/chemistry.txt&amp;#39;, row.names = 1)
+chem &amp;lt;- chem[,-15] # removes slope, which is not chemical variables
+PCA &amp;lt;- rda(chem,scale = T) #the argument scale standarizes the variables
+head(summary(PCA))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## rda(X = chem, scale = T) 
+## 
+## Partitioning of correlations:
+##               Inertia Proportion
+## Total              14          1
+## Unconstrained      14          1
+## 
+## Eigenvalues, and their contribution to the correlations 
+## 
+## Importance of components:
+##                          PC1    PC2    PC3     PC4     PC5     PC6     PC7
+## Eigenvalue            4.3861 1.8311 1.6322 1.21612 0.92221 0.89790 0.72924
+## Proportion Explained  0.3133 0.1308 0.1166 0.08687 0.06587 0.06414 0.05209
+## Cumulative Proportion 0.3133 0.4441 0.5607 0.64754 0.71341 0.77755 0.82963
+##                           PC8     PC9    PC10    PC11    PC12    PC13
+## Eigenvalue            0.63060 0.53379 0.40476 0.29093 0.22711 0.18121
+## Proportion Explained  0.04504 0.03813 0.02891 0.02078 0.01622 0.01294
+## Cumulative Proportion 0.87468 0.91280 0.94172 0.96250 0.97872 0.99166
+##                          PC14
+## Eigenvalue            0.11672
+## Proportion Explained  0.00834
+## Cumulative Proportion 1.00000
+## 
+## Scaling 2 for species and site scores
+## * Species are scaled proportional to eigenvalues
+## * Sites are unscaled: weighted dispersion equal on all dimensions
+## * General scaling constant of scores:  5.574992 
+## 
+## 
+## Species scores
+## 
+##          PC1      PC2      PC3      PC4      PC5      PC6
+## Ca   -1.2395  0.26073 -0.08279  0.07019 -0.21455  0.31631
+## Mg   -1.2847 -0.07431  0.03779 -0.03741 -0.05047  0.34011
+## Fe    0.2337 -0.74467 -0.18301  0.91026 -0.36570  0.12707
+## K    -0.8757 -1.02193  0.02213 -0.23047  0.24166 -0.06626
+## Na   -0.9686 -0.65514 -0.03874  0.17597  0.40968 -0.29167
+## Si   -0.8009 -0.94159  0.13567 -0.40204 -0.33330  0.26581
+## ....                                                     
+## 
+## 
+## Site scores (weighted sums of species scores)
+## 
+##            PC1     PC2      PC3       PC4      PC5     PC6
+## 1    -1.298386 -1.6531  0.32020 -0.410813 -0.27795  1.1076
+## 2     0.331266  0.3436  0.87967 -0.112347  0.05342 -0.5761
+## 3    -0.578705  1.0812 -0.49588 -0.339626  0.30775 -0.4156
+## 4    -0.517608  1.1056  0.04964  0.101172  0.03688  0.1731
+## 5    -0.759527 -0.1386  0.32003 -0.230092 -0.74608  0.2601
+## 6    -0.004093  0.7204  0.44371  0.005363  0.04296 -0.2904
+## ....&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;从结果上看总的变异为14， 第一轴解释了4.3861， 即解释了31%。在这里，因为我们对所有的变量进行过标准化处理（即每一个变量的均值为0，标准差为1）。我们一共包含14个变量，即总变异为14.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;stand.chem &amp;lt;- scale(chem)
+stand.chem.var &amp;lt;- apply(stand.chem, 2, var)
+stand.chem.var&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      Ca      Mg      Fe       K      Na      Si     SO4     PO4     NO3 
+##       1       1       1       1       1       1       1       1       1 
+##     NH3      Cl    Corg      pH conduct 
+##       1       1       1       1       1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(stand.chem.var)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 14&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果想进一步知道每一个变量对于第一轴和第二轴到底贡献了多少我们可以利用score&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;loadings &amp;lt;- scores(PCA, display = &amp;quot;species&amp;quot;, scaling = 0)
+loadings&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                  PC1         PC2
+## Ca      -0.397207108  0.12931763
+## Mg      -0.411695240 -0.03685437
+## Fe       0.074879310 -0.36934346
+## K       -0.280639035 -0.50686184
+## Na      -0.310399857 -0.32493807
+## Si      -0.256661125 -0.46701175
+## SO4     -0.217276338  0.09023013
+## PO4      0.115086359 -0.25838198
+## NO3      0.034618703  0.03814265
+## NH3      0.174227393 -0.02750712
+## Cl       0.007920445  0.02129442
+## Corg     0.322058906 -0.21255537
+## pH      -0.307202160  0.28944051
+## conduct -0.368754666  0.24163441
+## attr(,&amp;quot;const&amp;quot;)
+## [1] 5.574992&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注意如果在这里不进行变量的标准化，可能会引发一些问题。如果某一变量本身数值较大，其变异程度可能也会很大，这会影响整体分析。另外，具体画图可以适用biplot功能&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;biplot(PCA, display = &amp;quot;species&amp;quot;, scaling = &amp;quot;species&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./post/2018-06-20-pca2_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;怎么去理解这个结果？我们可以把第一轴看作是养分轴，即poor-rich gradient.&lt;/p&gt;
+&lt;p&gt;另一个栗子:对数据进行转化的情况.这里我们介绍一个在进行pca分析前对数据进行hellinger转化。 套路：读入数据 —— 数据转化 —— pca分析 —— 做图&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vltava.spe &amp;lt;- read.delim (&amp;#39;https://raw.githubusercontent.com/zdealveindy/anadat-r/master/data/vltava-spe.txt&amp;#39;, row.names = 1)
+
+vltava.spe.hel &amp;lt;-  decostand(log1p(vltava.spe), &amp;quot;hellinger&amp;quot;)
+tbPCA &amp;lt;- rda(vltava.spe.hel)
+
+source (&amp;#39;http://www.davidzeleny.net/anadat-r/doku.php/en:numecolr:cleanplot.pca?do=export_code&amp;amp;codeblock=0&amp;#39;) # define the cleanplot.pca function&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(filename, &amp;quot;r&amp;quot;, encoding = encoding): &amp;quot;internal&amp;quot; method
+## cannot handle https redirection to: &amp;#39;https://www.davidzeleny.net/anadat-r/
+## doku.php/en:numecolr:cleanplot.pca?do=export_code&amp;amp;codeblock=0&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(filename, &amp;quot;r&amp;quot;, encoding = encoding): &amp;quot;internal&amp;quot; method
+## failed, so trying &amp;quot;libcurl&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(filename, &amp;quot;r&amp;quot;, encoding = encoding): &amp;quot;internal&amp;quot; method
+## cannot handle https redirection to: &amp;#39;https://www.davidzeleny.net/anadat-r/
+## doku.php/en:numecolr:cleanplot.pca?do=export_code&amp;amp;codeblock=1&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(filename, &amp;quot;r&amp;quot;, encoding = encoding): &amp;quot;internal&amp;quot; method
+## failed, so trying &amp;quot;libcurl&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cleanplot.pca(tbPCA)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./post/2018-06-20-pca2_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt; 多说一句，上图中的scaling 1 和 2啥意思呢？ 左图为1的情况，即关注点在对象（或者理解为不同站点，数据中的排）。右图为2的情况，即关注点在描述某一站点的组分（或者理解为物种，即数据中的列）。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>排序之 PCA &amp; tb-PCA</title>
+      <link>/post/pca-tb-pca/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pca-tb-pca/</guid>
+      <description>&lt;p&gt;主成分分析是线性非限制性排序方法。主成分分析的轴是基于特征值（变量解释程度）而排序的。&lt;/p&gt;
+&lt;p&gt;主成分分析相关function简介：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\color{red}{\text{rda()}}\)&lt;/span&gt; 源于vegan包。如果相关环境变量没有制定，rda默认的是进行pca分析。如果不用原始数据而是对数据进行了相应转换（利用decostand(),如helinger或者chord转换)，然后运行rda进行tb－PCA。&lt;/p&gt;
+&lt;p&gt;排序结果可以用&lt;span class=&#34;math inline&#34;&gt;\(\color{red}{\text{plot()}}\)&lt;/span&gt;来展示。还可以用biplot() 或者cleanplot.pca。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\color{red}{\text{evplot()}}\)&lt;/span&gt;通过可视化方法判断排序轴因子的重要性。using Keiser-Guttman criterion and broken stick model.类似的还有PCAsignificance (library BiodiversityR) - calculates broken-stick model for PCA axes.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\color{red}{\text{ordiequilibriumcircle}}\)&lt;/span&gt; (library BiodiversityR) - adds the circle of equivalent contribution onto the ordination diagram plotted by vegan’s functions ordiplot or biplot.&lt;/p&gt;
+&lt;p&gt;举个栗子 我们以草原群落为例。鉴于该草原的物种群落组成相对匀质，我们认为比较适合pca分析。统计上讲可以通过第一DCA轴的长度来判断。&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#读进群落数据
+grasslands.spe &amp;lt;- read.delim(&amp;#39;http://www.davidzeleny.net/anadat-r/data-download/grasslands-spe.txt&amp;#39;, row.names = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(file, &amp;quot;rt&amp;quot;): &amp;quot;internal&amp;quot; method cannot handle https
+## redirection to: &amp;#39;https://www.davidzeleny.net/anadat-r/data-download/
+## grasslands-spe.txt&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(file, &amp;quot;rt&amp;quot;): &amp;quot;internal&amp;quot; method failed, so trying &amp;quot;libcurl&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;##读进环境变量
+grasslands.env &amp;lt;- read.delim(&amp;#39;http://www.davidzeleny.net/anadat-r/data-download/grasslands-env.txt&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in file(file, &amp;quot;rt&amp;quot;): &amp;quot;internal&amp;quot; method cannot handle https
+## redirection to: &amp;#39;https://www.davidzeleny.net/anadat-r/data-download/
+## grasslands-env.txt&amp;#39;
+
+## Warning in file(file, &amp;quot;rt&amp;quot;): &amp;quot;internal&amp;quot; method failed, so trying &amp;quot;libcurl&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;grasslands.spe.log &amp;lt;- log1p(grasslands.spe)
+library(vegan)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: permute&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: lattice&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## This is vegan 2.4-4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;decorana(grasslands.spe.log)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## decorana(veg = grasslands.spe.log) 
+## 
+## Detrended correspondence analysis with 26 segments.
+## Rescaling of axes with 4 iterations.
+## 
+##                   DCA1   DCA2   DCA3   DCA4
+## Eigenvalues     0.2652 0.2285 0.1485 0.1545
+## Decorana values 0.2887 0.2228 0.1676 0.1383
+## Axis lengths    2.6961 2.1441 2.5704 1.8207&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;结果中第一个DCA轴的长度为2.7倍的sd(小于3即可适用pca分析)。&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;PCA &amp;lt;- rda(grasslands.spe.log)
+PCA&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Call: rda(X = grasslands.spe.log)
+## 
+##               Inertia Rank
+## Total            35.4     
+## Unconstrained    35.4   47
+## Inertia is variance 
+## 
+## Eigenvalues for unconstrained axes:
+##   PC1   PC2   PC3   PC4   PC5   PC6   PC7   PC8 
+## 4.625 3.492 2.445 2.297 1.648 1.543 1.479 1.331 
+## (Showed only 8 of all 47 unconstrained eigenvalues)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;pca轴一和轴二一共解释了(4.625+3.492)/35.4 = 23%。然后就是画图。我们可以设置用不同的形状和颜色代表不同的植被类型。&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vegtype &amp;lt;- as.numeric(grasslands.env$classification)
+ordiplot(PCA, display = &amp;quot;sites&amp;quot;, type = &amp;quot;n&amp;quot;)
+points(PCA, pch=vegtype, col=vegtype)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./post/2018-06-11-pca-tb-pca_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>生态学群落分析之多元分析 （1）排序</title>
+      <link>/post/1-pca/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/1-pca/</guid>
+      <description>&lt;p&gt;引子&lt;/p&gt;
+
+&lt;p&gt;什么是排序？为啥要排序？咋排？&lt;/p&gt;
+
+&lt;p&gt;群落学数据一般是多维数据，例如群落中物种组成。某一个物种在某一个群落中的多度作为变量，其在不同群落中多度的变化，类似于一个数据轴，即维度。那么，不同的物种整体上构成了多维数据。
+排序是一种降维的过程。大概是因为我们习惯了只有x轴和y轴的图。习惯上我们喜欢降成两个或者三个维度。只不过现在降后的维度（或叫数据轴）已经是多个维度的杂合。不像之前单一物种构成的维度，这时候的维度可能是 耐旱或者不耐旱（必然有一批物种）等。当然这只是我为了便于自己理解而硬加上的例子解释。&lt;/p&gt;
+
+&lt;p&gt;之所以要进行排序，是因为数据中信息的冗余，即数据中包含的变量要多于描述背后信息量所必要的变量。如果在确保主要信息并未丢失的前提下，通过降低变量（和维度），我们可以更好的描述群落组成。note：如果每个变量之前都是完全相互独立的，排序将很有可能起不到去除冗余的目的。&lt;/p&gt;
+
+&lt;p&gt;生态学群落数据的排序有两种大类：第一，寻求物种组成的梯度并研究不同环境因子如何解释这些梯度（即解释物种组成变异）。第二，寻求不同的样本在排序后的分布，并研究不同样本之间的相似程度（基于物种组成）。&lt;/p&gt;
+
+&lt;p&gt;img&lt;/p&gt;
+
+&lt;p&gt;选择排序前要进行三问：
+第一，有没有包含环境变量？
+基于群落物种组成数据包含不包含环境因子变量，排序分为分限制排序和限制性排序。大家熟悉的PCA和NMDS 都是非限制排序的范畴。而限制性排序多为RDA分析。限制性排序可以进行一些假说验证，比如物种组成受环境影响程度有多大？哪些环境因子主要影响着物种组成（对于重要环境因子的筛选有以下方法：向前选择法，即无关紧要的因子一个一个剔除；蒙特卡洛法），并且基于此而对不同环境因子解释的变异组分百分比进行量化。&lt;/p&gt;
+
+&lt;p&gt;第二：排序是基于物种组成原始数据（raw），转换数据（tb）是还是基于距离指数（db）的数据？
+第三：物种组成的响应是符合线性还是单峰响应？如果环境梯度小且较为匀质，可以考虑为线性响应。反之单峰。另，一种更为直观的检验方法为计算DCA（detrended by segments）指数。如果第一DCA 轴 (单位为standard deviation,S.D.的倍数)大于4倍S.D，即选择单峰。小于3倍S.D.,即选择线性。介于中间二者皆可。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>疯一下</title>
       <link>/post/2018-06-09-/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
@@ -169,11 +413,9 @@ The goal of this project is to investigate how plant carbohydrates control arbus
 &lt;li&gt;If want to quote, put a &lt;code&gt;&amp;gt;&lt;/code&gt; ahead of the paragraph. One more &lt;code&gt;&amp;gt;&lt;/code&gt;, one further step for indentation.&lt;/li&gt;
 &lt;li&gt;If you want red, simple put context inside two `.&lt;/li&gt;
 &lt;li&gt;If want a bullet, put a &lt;code&gt;*&lt;/code&gt; ahead of the paragraph.&lt;/li&gt;
-&lt;li&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Be careful about the snakes, spiders and any other thing that can &lt;a href=&#34;https://github.com/&#34;&gt;move&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/li&gt;
+&lt;li&gt;Roses are &lt;span class=&#34;math inline&#34;&gt;\(\color{red}{\text{beautiful red}}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;opt+comd+I is the shortcut for insert chunk&lt;/li&gt;
+&lt;li&gt;opt+“-” is the shortcut for insert “&amp;lt;-”&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -185,60 +427,6 @@ The goal of this project is to investigate how plant carbohydrates control arbus
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/2017-plantsoil_lv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Facilitation by leguminous shrubs increases along a precipitation gradient</title>
-      <link>/publication/2017-functional_hai/</link>
-      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2017-functional_hai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nitrogen deposition promotes phosphorus uptake of plants in a semi-arid temperate grassland</title>
-      <link>/publication/2016-plantsoil_long/</link>
-      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2016-plantsoil_long/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The fate of fertilizer nitrogen in a high nitrate accumulated agricultural soil</title>
-      <link>/publication/2016-sr_quan/</link>
-      <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2016-sr_quan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impacts of leguminous shrub encroachment on neighboring grasses include transfer of fixed nitrogen</title>
-      <link>/publication/2016-oecologia_hai/</link>
-      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2016-oecologia_hai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plant carbon limitation does not reduce nitrogen transfer from arbuscular mycorrhizal fungi to Plantago lanceolata</title>
-      <link>/publication/2015-plantsoil_hai/</link>
-      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2015-plantsoil_hai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sampling Date, Leaf Age and Root Size: Implications for the Study of Plant C:N:P Stoichiometry</title>
-      <link>/publication/2013-plosone_hai/</link>
-      <pubDate>Tue, 02 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2013-plosone_hai/</guid>
       <description></description>
     </item>
     
